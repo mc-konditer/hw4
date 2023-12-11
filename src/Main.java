@@ -55,7 +55,7 @@ public class Main {
         System.out.println("Если пассажираов " + passengers + ", то в вагоне " + (capacity - passengers) + " свободных мест(а), из них " + (sittingPlace - 42) + " сидячих и " + standingPlace + " стоячих мест(а).");
     }
     if (passengers >= sittingPlace && passengers < capacity) {
-        System.out.println("Если пассажираов " + passengers + ", то в вагоне нет свободных мест, а осталось лишь "+ (capacity - passengers) + " стоячих мест(а).");
+        System.out.println("Если пассажираов " + passengers + ", то в вагоне нет свободных сидячих мест, а осталось лишь "+ (capacity - passengers) + " стоячих мест(а).");
     } else {
         System.out.println("Свободных мест в вагоне не осталось...");
 
